@@ -54,7 +54,7 @@ endif
 ########################
 # a library has a repo folder in name-version-arch
 productName			=$(name)-$(version)-$(arch)$(tag)
-localRepoRoot 		=.repo
+localRepoRoot 		=repo
 localBuildRoot 		=.build
 localBuildFolder	=$(localBuildRoot)/$(productName)
 localRepoFolder		=$(localRepoRoot)/$(productName)
